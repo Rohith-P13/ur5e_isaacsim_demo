@@ -1,0 +1,86 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz_default_plugins/Grid
+      Name: Grid
+      Enabled: true
+      Reference Frame: base_link
+      Cell Size: 0.1
+      Plane Cell Count: 20
+    - Class: rviz_default_plugins/RobotModel
+      Name: RobotModel
+      Enabled: true
+      Description Source: Topic
+      Description Topic:
+        Value: /robot_description
+        Durability Policy: Transient Local
+      Visual Enabled: true
+      Collision Enabled: false
+    - Class: rviz_default_plugins/TF
+      Name: TF
+      Enabled: true
+      Show Names: false
+      Show Axes: true
+      Show Arrows: false
+      Marker Scale: 0.4
+      Frames:
+        All Enabled: false
+        base_link:
+          Value: true
+        tool0:
+          Value: true
+        camera_link:
+          Value: true
+        camera_optical_frame:
+          Value: true
+    - Class: rviz_default_plugins/Marker
+      Name: CubeFromTF
+      Enabled: true
+      Topic:
+        Value: /evidence/cube_marker
+        Durability Policy: Transient Local
+    - Class: rviz_default_plugins/Camera
+      Name: WristCamera
+      Enabled: true
+      Topic:
+        Value: /wrist_cam/image_raw
+      Image Rendering: background and overlay
+      Overlay Alpha: 0.5
+      Zoom Factor: 1
+      Visibility:
+        Grid: false
+        RobotModel: true
+        TF: false
+        CubeFromTF: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Fixed Frame: base_link
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz_default_plugins/MoveCamera
+  Value: true
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 1.6
+      Focal Point:
+        X: 0.35
+        Y: 0
+        Z: 0.25
+      Pitch: 0.45
+      Yaw: 3.6
+      Target Frame: base_link
+      Name: Current View
+Window Geometry:
+  Width: 1800
+  Height: 1000
+  X: 60
+  Y: 60
+  Displays:
+    collapsed: true
+  WristCamera:
+    collapsed: false

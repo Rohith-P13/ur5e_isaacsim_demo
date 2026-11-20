@@ -1,0 +1,6 @@
+view 0 az  -40: projected ( 320.7,  237.0)  red-centroid offset   1.9 px  depth error   -0.4 mm
+view 1 az  -20: projected ( 319.4,  239.0)  red-centroid offset   2.1 px  depth error   -0.3 mm
+view 2 az   +0: projected ( 319.0,  237.2)  red-centroid offset   0.8 px  depth error   +0.2 mm
+view 3 az  +20: projected ( 319.4,  239.7)  red-centroid offset   2.9 px  depth error   -0.4 mm
+view 4 az  +40: projected ( 322.0,  238.4)  red-centroid offset   2.0 px  depth error   -0.1 mm
+Wrote 5 results to captures/report.json

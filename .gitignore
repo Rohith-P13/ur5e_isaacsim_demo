@@ -18,3 +18,12 @@ ros2_ws/log/
 
 # Runtime logs
 *.log
+
+# Build output if colcon is run from the repository root
+/build/
+/install/
+/log/
+
+# Local backups
+*.backup
+*.before_camera

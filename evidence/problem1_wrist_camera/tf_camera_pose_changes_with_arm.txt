@@ -1,0 +1,9 @@
+Camera pose in TF (base_link -> camera_optical_frame) at each arm pose
+Recorded by capture_views.py at each image stamp; the pose changes as the arm moves.
+
+view   sim time  joint angles (rad): pan lift elbow w1 w2 w3           camera position xyz (m)
+   0    469.533  +0.314 -1.939 +2.337 -2.452 -2.213 -2.295             (+0.3381, +0.1370, +0.4109)
+   1    471.867  -0.100 -2.299 +2.543 -2.583 -1.747 -2.962             (+0.3012, +0.0723, +0.4116)
+   2    474.600  -0.978 -2.699 +2.544 -1.923 -0.946 -3.950             (+0.2881, -0.0007, +0.4109)
+   3    477.067  -1.238 -2.430 +2.391 -1.513 -0.785 -4.734             (+0.3008, -0.0733, +0.4117)
+   4    479.133  -1.160 -2.024 +2.189 -1.453 -0.826 -5.110             (+0.3377, -0.1366, +0.4104)

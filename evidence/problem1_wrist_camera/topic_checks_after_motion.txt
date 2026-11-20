@@ -1,0 +1,14 @@
+PROBLEM 1 - WRIST CAMERA CHECKS
+Generated: 2026-11-17 00:30:16   (36 images, 36 camera_info messages sampled)
+
+[PASS] image size             640 x 480  (required 640 x 480)  encoding rgb8
+[PASS] camera_info size       640 x 480
+[PASS] rate (sim time)        15.00 Hz  (required 15 Hz; from header stamps)
+       rate (wall clock)      8.37 Hz  (depends on how fast the simulator runs)
+[PASS] frame_id               ['camera_optical_frame']  (required camera_optical_frame)
+[PASS] simulation-time stamps last image stamp 557.600 s, /clock 557.667 s (difference 67 ms; wall time would be ~1.8e9 s)
+       intrinsics K           fx=554.26 fy=554.26 cx=320.0 cy=240.0  distortion plumb_bob [0.0, 0.0, 0.0, 0.0, 0.0]
+
+       TF       tool0 -> camera_link           xyz (+0.0000, +0.0600, +0.0200)  quat xyzw (-0.5000, -0.5000, -0.5000, +0.5000)
+       TF camera_link -> camera_optical_frame  xyz (+0.0000, +0.0000, +0.0000)  quat xyzw (-0.5000, +0.5000, -0.5000, +0.5000)
+       TF   base_link -> camera_optical_frame  xyz (+0.3377, -0.1366, +0.4104)  quat xyzw (+0.8370, -0.3906, +0.1595, -0.3484)

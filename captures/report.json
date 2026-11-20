@@ -1,0 +1,107 @@
+[
+  {
+    "index": 0,
+    "image": "images/view_00.png",
+    "azimuth_deg": -40,
+    "projected_uv": [
+      320.6633239978818,
+      237.00010103667415
+    ],
+    "cube_centre_depth_m": 0.2990579446025665,
+    "in_view": true,
+    "red_centroid_uv": [
+      320.62538508934074,
+      235.09221606079277
+    ],
+    "red_pixels": 14607,
+    "centroid_offset_px": 1.908262152319541,
+    "depth_measured_m": 0.26319068670272827,
+    "depth_expected_m": 0.2635998888953253,
+    "depth_error_mm": -0.4092021925970468,
+    "overlay": "overlays/view_00.png"
+  },
+  {
+    "index": 1,
+    "image": "images/view_01.png",
+    "azimuth_deg": -20,
+    "projected_uv": [
+      319.4059292050767,
+      238.96122551932518
+    ],
+    "cube_centre_depth_m": 0.2992324953255712,
+    "in_view": true,
+    "red_centroid_uv": [
+      320.96122064366483,
+      237.55218904030153
+    ],
+    "red_pixels": 13796,
+    "centroid_offset_px": 2.098646053570004,
+    "depth_measured_m": 0.26356321573257446,
+    "depth_expected_m": 0.26388337718842486,
+    "depth_error_mm": -0.32016145585039846,
+    "overlay": "overlays/view_01.png"
+  },
+  {
+    "index": 2,
+    "image": "images/view_02.png",
+    "azimuth_deg": 0,
+    "projected_uv": [
+      319.0141206179746,
+      237.17064216170934
+    ],
+    "cube_centre_depth_m": 0.29896635357832874,
+    "in_view": true,
+    "red_centroid_uv": [
+      318.3639540301289,
+      236.74149712688305
+    ],
+    "red_pixels": 12878,
+    "centroid_offset_px": 0.7790263492764079,
+    "depth_measured_m": 0.2638639807701111,
+    "depth_expected_m": 0.2637020814658121,
+    "depth_error_mm": 0.1618993042989958,
+    "overlay": "overlays/view_02.png"
+  },
+  {
+    "index": 3,
+    "image": "images/view_03.png",
+    "azimuth_deg": 20,
+    "projected_uv": [
+      319.40486487861637,
+      239.6895487324418
+    ],
+    "cube_centre_depth_m": 0.2997842297038148,
+    "in_view": true,
+    "red_centroid_uv": [
+      316.80915809303,
+      238.35183306767135
+    ],
+    "red_pixels": 13802,
+    "centroid_offset_px": 2.9201330306188544,
+    "depth_measured_m": 0.2639870345592499,
+    "depth_expected_m": 0.26437453209004563,
+    "depth_error_mm": -0.3874975307957551,
+    "overlay": "overlays/view_03.png"
+  },
+  {
+    "index": 4,
+    "image": "images/view_04.png",
+    "azimuth_deg": 40,
+    "projected_uv": [
+      322.0109359629995,
+      238.35840262898378
+    ],
+    "cube_centre_depth_m": 0.29874547877479085,
+    "in_view": true,
+    "red_centroid_uv": [
+      321.0990058559172,
+      236.61378183303827
+    ],
+    "red_pixels": 14686,
+    "centroid_offset_px": 1.9685828003537647,
+    "depth_measured_m": 0.26317089796066284,
+    "depth_expected_m": 0.2632495865419645,
+    "depth_error_mm": -0.0786885813016669,
+    "overlay": "overlays/view_04.png"
+  }
+]
