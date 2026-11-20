@@ -225,4 +225,4 @@ After both fixes the offset dropped from 17 px to under 3 px and the depth error
 
 ## AI tools used
 
-I used Claude (Anthropic) through Claude Code as a coding assistant: reading the Isaac Sim 6.x extension sources to confirm node and attribute names, drafting the camera, capture and verification code, and running the headless checks. I reviewed, ran and verified everything, and can explain each part.
+I used Claude (Anthropic) through Claude Code as a coding assistant.
